@@ -1,0 +1,9 @@
+{
+  "name": "typescript-react-test-library",
+  "version": "0.0.1",
+  "description": "Learning how to create React modules using TypeScript!",
+  "main": "index.js",
+  "author": "Remulo Costa <remulo.costa@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
