@@ -2,10 +2,17 @@
   "name": "typescript-react-test-library",
   "version": "0.0.1",
   "description": "Learning how to create React modules using TypeScript!",
-  "main": "index.js",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "author": "Remulo Costa <remulo.costa@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build:esm": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.1.5"
   }
