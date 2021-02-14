@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Remulo Costa <remulo.costa@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
 }
